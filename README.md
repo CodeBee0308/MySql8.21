@@ -20,6 +20,6 @@
 第六步：更改密码(ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';)
 ***
 >常见问题：
-	1、发生系统错误 2，系统找不到指定的文件(https://blog.csdn.net/will__be/article/details/107540487)
-	2、发生系统错误 5，拒绝访问(https://www.cnblogs.com/zhangqingwang/p/10667110.html)
-	3、找不到vcruntime140_1.dll,无法继续执行代码(https://blog.csdn.net/littlehaes/article/details/104127787)【补丁文件】
+1.发生系统错误 2，系统找不到指定的文件(https://blog.csdn.net/will__be/article/details/107540487)
+2.发生系统错误 5，拒绝访问(https://www.cnblogs.com/zhangqingwang/p/10667110.html)
+3.找不到vcruntime140_1.dll,无法继续执行代码(https://blog.csdn.net/littlehaes/article/details/104127787)【补丁文件】
