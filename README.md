@@ -1,5 +1,6 @@
 # MySql8.21
 >[参考博客](https://blog.csdn.net/wangbeibei23/article/details/82056951)
+***
 >[MySql官网下载地址](https://dev.mysql.com/downloads/mysql/)
 ***
 第一步：
@@ -7,8 +8,8 @@
 	2. 配置环境变量(D:\Program Files\Mysql\mysql-8.0.21-winx64\bin) ;
 ***
 第二步：
-	* 初始化数据库(mysqld --initialize --console)
-	* 命令执行后会在和bin同级目录下产生data文件，即是root账号对应的数据库并产生随机密码(没记住初始密码可以删掉初始化的 data目录，再执行一遍初始化命令又会重新生成的)
+	初始化数据库(mysqld --initialize --console)
+	命令执行后会在和bin同级目录下产生data文件，即是root账号对应的数据库并产生随机密码(没记住初始密码可以删掉初始化的 data目录，再执行一遍初始化命令又会重新生成的)
 ***
 第三步：
 	在bin目录下执行安装服务命令(mysqld --install [服务名])，服务名可以不写默认的名字为 mysql。
